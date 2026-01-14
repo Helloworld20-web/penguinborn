@@ -45,7 +45,7 @@ plt.show()
 
 #Gnome more heatmaps :(
 
-#Useless Stuff
+# #Useless Stuff
 sns.histplot(seaboneds, bins=10, kde=True)
 
 sns.displot(seaboneds, kind="kde")
@@ -59,5 +59,25 @@ sns.catplot(x="culmen_length_mm", y="culmen_depth_mm", data=seaboneds, kind="swa
 sns.catplot(data=seaboneds, kind="count")
 
 sns.regplot(x="culmen_length_mm", y="culmen_depth_mm", data=seaboneds)
+
+plt.show()
+
+#Uhh more stuff i guess
+
+sns.boxplot(x="culmen_length_mm", y="culmen_depth_mm", data=seaboneds)
+
+plt.show()
+
+#Separatory Hashtag
+
+plt.show()
+
+sns.swarmplot(x="culmen_length_mm", y="culmen_depth_mm", data=seaboneds)
+
+plt.show()
+
+#Separatory Hashtag
+
+sns.stripplot(x="culmen_length_mm", y="culmen_depth_mm", data=seaboneds)
 
 plt.show()
